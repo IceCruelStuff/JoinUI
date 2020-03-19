@@ -1,7 +1,7 @@
 # JoinUI
 A Join Form Plugin For PMMP 
 
-**Features**
+# Features
 - [x] Showing UI When Joining
 - [x] Easy Editable Text / Config
 - [ ] Has Button Image - TODO
