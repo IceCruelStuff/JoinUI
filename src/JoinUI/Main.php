@@ -62,7 +62,6 @@ class Main extends PluginBase implements Listener
                     break;
             }
         });
-        $form->addButton($this->getConfig()->get("joinui-button"));
         
         $form->setTitle($this->getConfig()->get("joinui-title"));
         $form->setContent(str_replace(["{player}", "&"], [$player->getName(), "§"], $this->getConfig()->get("joinui-message")));
