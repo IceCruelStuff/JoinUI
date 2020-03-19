@@ -4,7 +4,7 @@ Working Join Form (UI) Plugin For Pocketmine-MP
 ## Features
 - [x] Showing UI / Form When Joining
 - [x] Easy Editable Text / Config
-- [x] Text Colour Support
+- [x] Supports Color Text
 - [ ] Has Button Image
 
 ## Depend
@@ -13,4 +13,4 @@ Working Join Form (UI) Plugin For Pocketmine-MP
 ## Download
 - [JoinUI](https://poggit.pmmp.io/ci/brokiem/JoinUI/JoinUI)
 
-**Thanks For Use This Plugin**
+**Thanks For Using This Plugin**
