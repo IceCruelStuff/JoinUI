@@ -1,5 +1,5 @@
 # JoinUI
-Join Form Plugin For PMMP 
+Working Join Form (UI) Plugin For Pocketmine-MP
 
 # Features
 - [x] Showing UI / Form When Joining
