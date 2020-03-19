@@ -62,10 +62,11 @@ class Main extends PluginBase implements Listener
                     break;
             }
         });
+        $form->addButton($this->getConfig()->get("joinui-button"));
         
         $form->setTitle($this->getConfig()->get("joinui-title"));
         $form->setContent(str_replace(["{player}", "&"], [$player->getName(), "§"], $this->getConfig()->get("joinui-message")));
-        $form->addButton($this->getConfig()->get("joinui-button"));
+        $form->addButton("§alOK", 0, "textures/ui/accessibility_glyph_color"));
         $form->sendToPlayer($player);
         return true;
     }
