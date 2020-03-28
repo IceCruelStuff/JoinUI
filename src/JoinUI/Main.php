@@ -60,12 +60,22 @@ class Main extends PluginBase implements Listener
             switch ($result) {
                 case 0:
                     break;
+                case 1:
+                $command = "info";
+                $this->getServer()->getCommandMap()->dispatch($sender,$command);
+                    break;
+                case 2:
+                $command = "rl";
+                $this->getServer()->getCommandMap()->dispatch($sender,$command);
+                    break;
             }
         });
         
         $form->setTitle($this->getConfig()->get("joinui-title"));
         $form->setContent(str_replace(["{player}", "&"], [$player->getName(), "§"], $this->getConfig()->get("joinui-message")));
         $form->addButton($this->getConfig()->get("joinui-button"));
+        $form->addButton($this->getConfig()->get("button-1"));
+        $form->addButton($this->getConfig()->get("button-2"));
         $form->sendToPlayer($player);
         return true;
     }
