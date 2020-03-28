@@ -1,4 +1,4 @@
-# JoinUI
+# JoinUI Extended
 A Working Join Form (UI) Plugin For Pocketmine-MP **With Additional Buttons**
 
 ## Features
