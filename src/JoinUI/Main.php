@@ -62,11 +62,11 @@ class Main extends PluginBase implements Listener
                     break;
                 case 1:
                 $command = $this->getConfig()->get("button-1-command");
-                $this->getServer()->getCommandMap()->dispatch($sender,$command);
+                $this->getServer()->getCommandMap()->dispatch($player,$command);
                     break;
                 case 2:
                 $command = $this->getConfig()->get("button-2-command");
-                $this->getServer()->getCommandMap()->dispatch($sender,$command);
+                $this->getServer()->getCommandMap()->dispatch($player,$command);
                     break;
             }
         });
