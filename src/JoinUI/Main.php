@@ -61,11 +61,11 @@ class Main extends PluginBase implements Listener
                 case 0:
                     break;
                 case 1:
-                $command = "info";
+                $command = $this->getConfig()->get("button-1-command");
                 $this->getServer()->getCommandMap()->dispatch($sender,$command);
                     break;
                 case 2:
-                $command = "rl";
+                $command = $this->getConfig()->get("button-2-command");
                 $this->getServer()->getCommandMap()->dispatch($sender,$command);
                     break;
             }
@@ -74,8 +74,8 @@ class Main extends PluginBase implements Listener
         $form->setTitle($this->getConfig()->get("joinui-title"));
         $form->setContent(str_replace(["{player}", "&"], [$player->getName(), "§"], $this->getConfig()->get("joinui-message")));
         $form->addButton($this->getConfig()->get("joinui-button"));
-        $form->addButton($this->getConfig()->get("button-1"));
-        $form->addButton($this->getConfig()->get("button-2"));
+        $form->addButton($this->getConfig()->get("button-1-text"));
+        $form->addButton($this->getConfig()->get("button-2-text"));
         $form->sendToPlayer($player);
         return true;
     }
