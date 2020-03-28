@@ -9,6 +9,9 @@ joinui-title: "§e» §aJoinUI" # Title
 joinui-message: "§eWelcome to this nice Server, {player}!\n§bHave fun!\n\nDo you want to edit texts and buttons?\n§fOpen the config.yml file in plugin_data folder!" # Text
 joinui-button: "§l§aOK"
 
+button-1: "§eRules"
+button-2: "§bRank List"
+
 enabled-joinui: "true" # If you set enabled to false, you will no longer see a UI when joining. Default is on true
 no-joinui-message: "§l§eServer §r§7» §cJoinUI is disabled!" # The Message if you set "enabled-joinui" to false
 ...
