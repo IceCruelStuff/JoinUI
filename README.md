@@ -6,7 +6,7 @@ A Working Join Form (UI) Plugin For Pocketmine-MP **With Additional Buttons**
 - [x] Editable Text / Config
 - [x] Easy To Use
 - [x] Supports Color Text
-- [x] Add Additional Button   # Untested
+- [x] Add Additional Button
 - [ ] Has Button Image
 
 ## Depend
