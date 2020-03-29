@@ -24,8 +24,7 @@ class Main extends PluginBase implements Listener
         
         $this->FormAPI = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
         if (!$this->FormAPI or $this->FormAPI->isDisabled()) {
-            $this->getLogger()->warning("§cPlugin FormAPI not found, disabling JoinUI...");
-            $this->getLogger()->warning("§ePlease install Plugin FormAPI");
+            $this->getLogger()->warning("§cPlugin FormAPI not found, disabling JoinUI..");
             $this->getServer()->getPluginManager()->disablePlugin($this);
         }
     }
