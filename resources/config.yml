@@ -1,5 +1,5 @@
 ---
-# Config JoinUI
+# Config JoinUI-Extended
 
 # Use \n to go in a new line
 # Use {player} to get player name
@@ -7,14 +7,14 @@
 
 joinui-title: "§e» §aJoinUI" # Title
 joinui-message: "§eWelcome to this nice Server, {player}!\n§bHave fun!\n\nDo you want to edit texts and buttons?\n§fOpen the config.yml file in plugin_data folder!" # Text
-joinui-button: "§l§aOK"
 
 button-1-text: "§eRules" # Your Button 1 text
-button-2-text: "§eRank List" #Your Button 2 text
+button-2-text: "§eRank List" # Your Button 2 text
+joinui-button: "§l§cClose" # Close button
 
 button-1-command: "rules" # button 1 command ( do not use slash [ / ] )
 button-2-command: "ranklist" # button 2 command ( do not use slash [ / ] )
 
 enabled-joinui: "true" # If you set enabled to false, you will no longer see a UI when joining. Default is on true
-no-joinui-message: "§l§eServer §r§7» §cJoinUI is disabled!" # The Message if you set "enabled-joinui" to false
+no-joinui-message: "§7» §cJoinUI is disabled!" # The Message if you set "enabled-joinui" to false
 ...
