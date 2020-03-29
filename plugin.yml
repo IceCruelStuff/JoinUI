@@ -1,6 +1,6 @@
 ---
 name: JoinUI
-version: 2.0-Extended
+version: 2.1-Extended
 api: 3.0.0
 author: brokiem
 main: JoinUI\Main
